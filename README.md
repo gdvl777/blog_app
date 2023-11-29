@@ -1,291 +1,122 @@
-<a name="readme-top"></a>
+# Blog_App
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
+## 📗 Table of Contents
 
-You should modify this file to match your project and remove sections that don't apply.
+- [Blog\_App](#blog_app)
+  - [📗 Table of Contents](#-table-of-contents)
+  - [📖 Blog\_App ](#-blog_app-)
+  - [🛠 Tech-stack ](#-tech-stack-)
+  - [🛠 Built With ](#-built-with-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup ](#setup-)
+    - [Prerequisites ](#prerequisites-)
+  - [Usage ](#usage-)
+  - [👥 Authors ](#-authors-)
+  - [Future Features ](#future-features-)
+  - [❓ FAQ ](#-faq-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show Your Support ](#️-show-your-support-)
+  - [📜 License ](#-license-)
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+## 📖 Blog_App <a name="about-project"></a>
 
-OPTIONAL SECTIONS:
-- FAQ
+The Blog app is a classic blog website. This application, is a fully functional website that displays a list of posts and allows readers to interact with them by adding comments and liking posts.
 
-After you're finished please remove all the comments and instructions!
+## 🛠 Tech-stack <a name="tech-stack"></a>
 
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
+This project is implemented using the Ruby on Rails programming language, known for its elegant syntax and flexibility. RoR provides a suitable foundation for this Blog_App code decoding project due to its ease of use and string manipulation capabilities.
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+This project is built using Ruby on Rails, a dynamic, open-source programming language known for its simplicity and productivity. Ruby's elegant syntax and powerful features make it a popular choice among developers.
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+## Key Features <a name="key-features"></a>
+- [x] **Rails new (setup)**
+- [x] **Data Model**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+To get started with the Catalog of My Things app, follow the instructions below:
 
-To get a local copy up and running, follow these steps.
+### Setup <a name="setup"></a>
 
-### Prerequisites
+1. Clone the project repository:
+   bash
+   `git clone https://github.com/gdvl777/blog_app.git`
+   
 
-In order to run this project you need:
+2. Navigate to the project folder:
+   bash
+   `cd Blog_App`
 
-<!--
-Example command:
+   
 
-```sh
- gem install rails
-```
- -->
+### Prerequisites <a name="prerequisites"></a>
 
-### Setup
+To run the Catalog of My Things app, you'll need the following prerequisites:
 
-Clone this repository to your desired folder:
+- An integrated development environment (IDE) like Visual Studio Code.
+- Ruby installed on your machine.
+- Git installed on your machine.
+- A GitHub account for version control.
 
-<!--
-Example commands:
+## Usage <a name="usage"></a>
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+Follow these steps to use the program:
 
-### Install
+1. Open your terminal.
+2. Navigate to the directory where the program files are located using the `cd` command:
 
-Install this project with:
+   bash
+   `cd /path/to/your/program/files`
+   
 
-<!--
-Example command:
+3. Start your Ruby on Rails server
 
-```sh
-  cd my-project
-  gem install
-```
---->
+   bash
+   `rails s`
 
-### Usage
 
-To run the project, execute the following command:
+4. cess the Blog app in your web browser at `http://localhost:3000`.
 
-<!--
-Example command:
+5. You can now interact with the app, create posts, add comments, and explore its features.
 
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+This project was developed by:
 
-👤 **Author1**
+👤 **Daniel Villalba L**
+-   GitHub: [@gdvl777](https://github.com/gdvl777)
+-   X: [@gdvl777_](https://www.x.com/gdvl777_)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Future Features <a name="future-project"></a>
 
-👤 **Author2**
+- [ ] **Devise**
+- [ ] **Authorization Rules**
+- [ ] **API endpoints.**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## ❓ FAQ <a name="faq"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+*Q: Is there a plan to add more features to this application?*
+A: Yes, the author has plans to enhance this application's capabilities. One upcoming feature is to make the application executable via tactil, providing more convenience and accessibility to users.
+ 
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+*Q: Where can I find more information about the Ruby programming language?*
+A: For more information about Ruby, its features, and its community, visit the official [Ruby website](https://www.ruby-lang.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/gdvl777/blog_app/issues) and contribute to the project.
 
-Feel free to check the [issues page](../../issues/).
+## ⭐️ Show Your Support <a name="support"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you find this project helpful, consider giving it a ⭐️ to show your support!
 
-<!-- SUPPORT -->
+## 📜 License <a name="license"></a>
 
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is licensed under the MIT License - you can click here to have more details [MIT](MIT.md).
