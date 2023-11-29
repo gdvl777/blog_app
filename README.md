@@ -13,6 +13,7 @@
     - [Prerequisites ](#prerequisites-)
   - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
+  - [Future Features ](#future-features-)
   - [❓ FAQ ](#-faq-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show Your Support ](#️-show-your-support-)
@@ -90,6 +91,12 @@ This project was developed by:
 👤 **Daniel Villalba L**
 -   GitHub: [@gdvl777](https://github.com/gdvl777)
 -   X: [@gdvl777_](https://www.x.com/gdvl777_)
+
+## Future Features <a name="future-project"></a>
+
+- [ ] **Devise**
+- [ ] **Authorization Rules**
+- [ ] **API endpoints.**
 
 ## ❓ FAQ <a name="faq"></a>
 
