@@ -5,6 +5,8 @@ ruby '3.0.0'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+gem 'kaminari'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.8'
 
@@ -57,6 +59,8 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'rspec-rails', '~> 5.0'
   gem 'shoulda-matchers', '~> 4.0'
+
+  gem 'rails-controller-testing'
 end
 
 group :development do
