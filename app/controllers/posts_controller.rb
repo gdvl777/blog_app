@@ -1,8 +1,9 @@
 class PostsController < ApplicationController
+  before_action :authenticate_user!
   before_action :find_user
 
   def index
-    @posts = @user.posts.page(params[:page]).per(3)
+    @posts = @user.posts.includes(:comments, :likes).page(params[:page]).per(3)
   end
 
   def create
