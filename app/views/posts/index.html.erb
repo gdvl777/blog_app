@@ -12,12 +12,15 @@
 </div>
 
 <div>
+<% if @user == current_user or current_user.admin? %>
   <%= link_to 'New Post', new_user_post_path(@user), class: 'button' %>
+  <% end %>
   <ul>
     <% @posts.each do |post| %>
       <li>
-        <div class="user-card left">
-          <h3><%= link_to post.title, user_post_path(@user, post) %></h3>
+        <div id="post-<%= post.id %>" class="user-card left">
+        <h3 data-id="<%= post.id %>"><%= link_to post.title, user_post_path(@user, post) %></h3>
+
           <br>
           <p><%= post.content %></p>
           <div class="right">
@@ -26,19 +29,18 @@
 
           </div>
         </div>
-        <div class="user-card left">
-          <ul>
-            <h5>All the Comments:</h5>
-            <br>
-            <% post.five_most_recent_comments.each do |comment| %>
-            <li><%= comment.author.name %>: <%= comment.text %></li>
-            <% end %>
-          </ul>
-        </div>
+        <div id="comments-for-post-<%= post.id %>" class="user-card left">
+  <ul>
+    <h5>All the Comments:</h5>
+    <br>
+    <% post.five_most_recent_comments.each do |comment| %>
+    <li><%= comment.author.name %>: <%= comment.text %></li>
+    <% end %>
+  </ul>
+</div>
       </li>
     <% end %>
   </ul>
 </div>
 
 <%= paginate @posts, param_name: 'page', class: 'button' %>
-
